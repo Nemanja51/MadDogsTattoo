@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutRaca" xml:space="preserve">
+    <value>He has been doing tattooing since 2012, when he opened his first studio. In addition to Belgrade, he has been a guest in Bulgaria, Denmark, Germany, Cyprus and Greece. In October 2020, he realized the idea of opening the original tattoo and piercing studio MAD DOGS. He does all styles of tattooing and singles out freehand as his favorite.</value>
+  </data>
+  <data name="AboutStudio" xml:space="preserve">
+    <value>In addition to tattoo and piercing services, we also do body modifications, suspensions, and play piercing techniques. The studio sells and replaces piercing jewelry, sells extended skincare products, and sells unique handmade jewelry.</value>
+  </data>
+  <data name="AboutVladimir" xml:space="preserve">
+    <value>He has been professionally engaged in body piercing for 21 years, tattoos for 3 years and extreme body modifications and suspensions for 11 years, for which he trained in Russia. He does all types of piercings - basic, genital, scalpeled piercings From body modifications - tongue split, scarification, ear pointing, earlobe reconstruction, implants, nipple, and navel removal, etc. Favorite tattoo styles-linework, dotwork, blackwork.</value>
+  </data>
+  <data name="AgeForTattooAndPiercing" xml:space="preserve">
+    <value>What are the age limits for tattoos and piercings?</value>
+  </data>
+  <data name="AgeText" xml:space="preserve">
+    <value>By law, you must be at least 18 years old. You need to have ID card or a document to prove it.</value>
+  </data>
+  <data name="AppointmentText" xml:space="preserve">
+    <value>You can schedule an appointment by stopping by the studio, calling us at 0612097339 or you can send a detailed e-mail with a description or picture of the desired design if it is a tattoo.</value>
+  </data>
+  <data name="Artists" xml:space="preserve">
+    <value>ARTISTS</value>
+  </data>
+  <data name="BelgradeSerbia" xml:space="preserve">
+    <value>Belgrade, Serbia</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="DoesItHurts" xml:space="preserve">
+    <value>Does it hurts?</value>
+  </data>
+  <data name="DoesItHurtsText" xml:space="preserve">
+    <value>It hurts! But in the best possible way. Your brain releases endorphins when you go through pain and your body loves endorphins, so it hurts but at the same time you like it.</value>
+  </data>
+  <data name="Follow" xml:space="preserve">
+    <value>Follow</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="HowMuchIsTattoo" xml:space="preserve">
+    <value>How much does a tattoo / piercing cost?</value>
+  </data>
+  <data name="HowMuchIsTattooText" xml:space="preserve">
+    <value>It depends on the size, the place for tattoo etc. The minimum price of a tattoo is 50e, while for piercing it varies from 15e to 80e. Prices for play piercings, body modifications and suspensions are determined on request.</value>
+  </data>
+  <data name="HowMuchTimeDoesIttakeToHeal" xml:space="preserve">
+    <value>How long does a tattoo take to heal?</value>
+  </data>
+  <data name="HowMuchTimeDoesIttakeToHealText" xml:space="preserve">
+    <value>It takes two weeks for it to heal, but it takes a couple of months for the skin to fully regenerate.</value>
+  </data>
+  <data name="HowToPointAppointment" xml:space="preserve">
+    <value>How do I make an appointment?</value>
+  </data>
+  <data name="HowToTakeCare" xml:space="preserve">
+    <value>How do I care for my new tattoo / piercing?</value>
+  </data>
+  <data name="HowToTakeCareText" xml:space="preserve">
+    <value>Each studio has its own care recommendations, you will receive instructions after you finish tattooing and piercing.</value>
+  </data>
+  <data name="LeaveDeposit" xml:space="preserve">
+    <value>Do I have to leave a deposit if I decide to make an appointment?</value>
+  </data>
+  <data name="LeaveDepositText" xml:space="preserve">
+    <value>In case the service is worth over 100e, a deposit of 50% is required. The deposit is non-refundable in case you do not show up at your appointment.</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="mon-fri" xml:space="preserve">
+    <value>mon - fri</value>
+  </data>
+  <data name="OurServices" xml:space="preserve">
+    <value>OUR SERVICES</value>
+  </data>
+  <data name="Partners" xml:space="preserve">
+    <value>Partners</value>
+  </data>
+  <data name="sut" xml:space="preserve">
+    <value>sut</value>
+  </data>
+  <data name="WorkingHours" xml:space="preserve">
+    <value>Working Hours</value>
+  </data>
+</root>

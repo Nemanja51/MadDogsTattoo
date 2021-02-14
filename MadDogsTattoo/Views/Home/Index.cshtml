@@ -1,0 +1,215 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "MadDogsTattoo";
+}
+@*First section*@
+<div class="parallax">
+    <h1>MAD DOGS TATTOO</h1>
+    <h4 class="text-center text-white-50">@Localizer["BelgradeSerbia"]</h4>
+</div>
+<div class="p-5" style="background-color:black;">
+    <div class=" justify-content-around rowWithoutMargin text-white-50 container text-center align-items-center">
+        <div>
+            <h4>@Localizer["Location"]</h4>
+            <p>Cara Uroša 17</p>
+            <p>11000 @Localizer["BelgradeSerbia"]</p>
+            <br />
+        </div>
+        <div>
+            <h4>@Localizer["WorkingHours"]</h4>
+            <p>@Localizer["mon-fri"]</p>
+            <p>12:00 - 20:00</p>
+            <p>@Localizer["sut"]</p>
+            <p>12:00 - 18:00</p>
+            <br />
+        </div>
+        <div>
+            <h4>@Localizer["Contact"]</h4>
+            <p>maddogstattoo011@gmail.com</p>
+            <p>+381 61 2097339</p>
+        </div>
+    </div>
+</div>
+@*Our services*@
+<div id="parallax2" class="parallax2">
+    <h2>@Localizer["OurServices"]</h2>
+    @*<h4 class="text-center text-white-50">All in one place</h4>*@
+    <h5 class="container text-center" style="color: rgba(255, 255, 255, 0.7)">
+        @Localizer["AboutStudio"]
+    </h5>
+</div>
+<div class="p-3" style="background-color: black;">
+    <div class=" justify-content-around rowWithoutMargin text-white-50 container text-center">
+    </div>
+</div>
+@*Artists*@
+<div id="parallax3" class="parallax3">
+    <h2>@Localizer["Artists"]</h2>
+</div>
+<div class="p-5" style="background-color:black;">
+    <div class="row justify-content-around rowWithoutMargin text-white-50 text-center">
+        <div class="col-md-5 p-3" style="text-align-last: center;">
+            <img src="~/images/aleksandar-raca-tattoo.jpg" alt="Aleksandar Raca" style="width:100%;" class="img-fluid" />
+            <div>
+                <h3 class="mt-3">Aleksandar Raca</h3>
+                <p>
+                    @Localizer["AboutRaca"]
+                </p>
+            </div>
+            <a class="btn btn-outline-secondary" asp-action="Index" asp-controller="RacaGallery">@Localizer["Gallery"]</a>
+        </div>
+        <div class="col-md-5 p-3" style="text-align-last: center;">
+            <img src="~/images/dovla-portret-piercing-min.jpg" alt="Vladimir Filipovic" style="width: 100%;" class="img-fluid" />
+            <div class="">
+                <h3 class="mt-3">Vladimir Filipović</h3>
+                <p>
+                    @Localizer["AboutVladimir"]
+                </p>
+            </div>
+            <a class="btn btn-outline-secondary" asp-controller="VladaGallery" asp-action="Index">@Localizer["Gallery"]</a>
+        </div>
+    </div>
+</div>
+@*Studio*@
+<div id="parallax4" class="parallax4">
+    <h2>STUDIO</h2>
+</div>
+<div class="container mt-4">
+    <div id="carouselExampleControls" class="carousel slide mt-5 mb-5" data-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="~/images/tattoostudio3-min.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="~/images/tattoostudio2-min.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="~/images/tatttostudio1-min.jpg" alt="Second slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+@*FAQ*@
+<div id="parallax5" class="parallax5">
+    <h2>FAQ</h2>
+</div>
+<div class="p-md-5 mt-5" style="background-color: black;">
+    <div class="justify-content-around rowWithoutMargin text-white-50 container faq">
+        <div class="col-md-5">
+            <h3>@Localizer["HowToPointAppointment"]</h3>
+            <p>
+                @Localizer["AppointmentText"]
+            </p>
+        </div>
+        <div class="col-md-5">
+            <h3>@Localizer["DoesItHurts"]</h3>
+            <p>
+                @Localizer["DoesItHurtsText"]
+            </p>
+        </div>
+        <div class="col-md-5">
+            <h3>@Localizer["AgeForTattooAndPiercing"]</h3>
+            <p>
+                @Localizer["AgeText"]
+            </p>
+        </div>
+        <div class="col-md-5">
+            <h3>@Localizer["HowMuchTimeDoesIttakeToHeal"]</h3>
+            <p>
+                @Localizer["HowMuchTimeDoesIttakeToHealText"]
+            </p>
+        </div>
+        <div class="col-md-5">
+            <h3>@Localizer["HowMuchIsTattoo"]</h3>
+            <p>
+                @Localizer["HowMuchIsTattooText"]
+            </p>
+        </div>
+        <div class="col-md-5">
+            <h3>@Localizer["HowToTakeCare"]</h3>
+            <p>
+                @Localizer["HowToTakeCareText"]
+            </p>
+        </div>
+        @*<div class="col-md-5">
+            <h3>HOW CAN I GET A PRICE QUOTE?</h3>
+            <p>
+                The best way to get an accurate price range is by booking a (free!) consultation with the artist—if not in person,
+                then through a brief detailed email. In order for us to quote your idea, we need to consider the subject, size, placement on the body, detail, etc.
+
+                You are also welcome to come into the shop and talk to one of our artists, if they’re available.
+                We’re always more than happy to help get you the information you need.
+            </p>
+        </div>*@
+        <div class="col-md-5">
+            <h3>@Localizer["LeaveDeposit"]</h3>
+            <p>
+                @Localizer["LeaveDepositText"]
+            </p>
+        </div>
+
+    </div>
+</div>
+@*Partners / Sponsors*@
+<div class="p-md-5 mt-2 mb-5" style="background-color: black;">
+    <div class="container">
+        <div>
+            <h3 class="text-center text-white-50">Partners</h3>
+        </div>
+        <div class="justify-content-around rowWithoutMargin text-white-50 container mt-5">
+            <a href="#"><img src="images/Partners-Sponsors/chic-or-freak-white-big.png" style="width: 150px;" /></a>
+            <a href="https://www.instagram.com/kirschproduction/" target="_blank"><img src="images/Partners-Sponsors/kirsch-production.jpg" style="width: 150px;" /></a>
+            <a href="https://www.instagram.com/tattoobodyguard_srbija/"><img src="images/Partners-Sponsors/tattoo-bodygard.jpg" style="width: 150px;" /></a>
+        </div>
+    </div>
+</div>
+@*Map*@
+<div id="googleMap">
+    <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.9822141808795!2d20.4542144152252!3d44.82192697909861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a654b07733a51%3A0xcd0aef944e822eed!2sCara%20Uro%C5%A1a%2017%2C%20Beograd!5e0!3m2!1sen!2srs!4v1612210234371!5m2!1sen!2srs" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+@*Additional footer*@
+<div class=" justify-content-around rowWithoutMargin text-white-50 container mt-5 text-center align-items-center">
+    <div class="col-md-3">
+        <h4>Follow</h4>
+        <div class="text-center">
+            <a href="mailto:maddogstattoo011@gmail.com"><i class="far fa-envelope text-white"></i></a>
+            <a href="https://www.facebook.com/maddogs011" target="_blank"><i class="fab fa-facebook-square text-white"></i></a>
+            <a href="https://www.instagram.com/maddogs_tattooandpiercing/" target="_blank"><i class="fab fa-instagram text-white"></i></a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <h4>@Localizer["Location"]</h4>
+        <p>
+            Cara Uroša 17 <br />
+            11000 Belgrade, Serbia
+        </p>
+    </div>
+    <div class="col-md-3">
+        <h4>@Localizer["WorkingHours"]</h4>
+        <p>
+            @Localizer["mon-fri"]<br />
+            12:00 - 20:00
+        </p>
+        <p>
+            @Localizer["sut"] <br />
+            12:00 - 18:00
+        </p>
+    </div>
+    <div class="col-md-3">
+        <h4>@Localizer["Contact"]</h4>
+        <p>
+            maddogstattoo011@gmail.com <br />
+            +381 61 2097339
+        </p>
+    </div>
+</div>
+<br />
+

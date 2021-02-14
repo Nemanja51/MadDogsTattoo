@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutRaca" xml:space="preserve">
+    <value>Tetoviranjem se bavi od 2012 kada i otvara svoj prvi studio. Pored Beograda sa svojim radom gostovao je i u Bugarskoj, Danskoj, Nemackoj, Kipru i Grckoj.U oktobru 2020 ostvaruje ideju o otvaranju originalnog tattoo i piercing studija MAD DOGS. Radi sve stilove tetoviranja a kao omiljeni izdvaja freehand.</value>
+  </data>
+  <data name="AboutStudio" xml:space="preserve">
+    <value>Pored tattoo i piercing usluga radimo i telesne modifikacije, suspenzije i play pierce tehniku. Studio vrši prodaju i zamenu nakita za piercing, prodaju preparata za produženu negu tetovirane kože i prodaju unikatnog ručno rađenog nakita.</value>
+  </data>
+  <data name="AboutVladimir" xml:space="preserve">
+    <value>Profesionalno se bavi body piercingom 21 godinu, tetovažama 3 godine i ekstremnim telesnim modifikacijama i suspenzijama 11 godina, za šta se obučavao u Rusiji.
+Radi sve vrste pirseva-basic, genitalne, scalpeled pirseve.
+Od telesnih modifikacija-tongue split, scarification, ear pointing, earlobe reconstruction, implants, nipple and navel removal itd.
+Omiljeni stilovi tetoviranja-linework, dotwork, blackwork.</value>
+  </data>
+  <data name="AgeForTattooAndPiercing" xml:space="preserve">
+    <value>Koje su starosne granice kod tetoviranja i pirsinga?</value>
+  </data>
+  <data name="AgeText" xml:space="preserve">
+    <value>Po zakonu moraš imati najmanje 18 godina i to uz priloženu ličnu kartu ili neki dokument koji to dokazuje.</value>
+  </data>
+  <data name="AppointmentText" xml:space="preserve">
+    <value>Termin možeš zakazati tako što ceš svratiti do studia, pozvati nas na 0612097339 ili možes poslati detaljan e-mail sa opisom ili slikom željenog dizajna ako je u pitanju tetovaža.</value>
+  </data>
+  <data name="Artists" xml:space="preserve">
+    <value>Umetnici</value>
+  </data>
+  <data name="BelgradeSerbia" xml:space="preserve">
+    <value>Beograd, Srbija</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="DoesItHurts" xml:space="preserve">
+    <value>Da li boli?</value>
+  </data>
+  <data name="DoesItHurtsText" xml:space="preserve">
+    <value>Boli! Ali na najbolji mogući način, tvoj mozak oslobađa endorfin kada prolazis kroz bol i tvoje telo voli endorfin, tako da boli ali ti se u isto vreme i dopada.</value>
+  </data>
+  <data name="Follow" xml:space="preserve">
+    <value>Društvene mreže</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galerija</value>
+  </data>
+  <data name="HowMuchIsTattoo" xml:space="preserve">
+    <value>Koliko košta tetovaža/pirsing?</value>
+  </data>
+  <data name="HowMuchIsTattooText" xml:space="preserve">
+    <value>Zavisi od veličine, mesta koje se radi itd. Minimalna cena tetovaže je 50e dok za pirsing varira od 15e do 80e. Cene play pirsinga, telesnih modifikacija i suspenzija se određuju po upitu.</value>
+  </data>
+  <data name="HowMuchTimeDoesIttakeToHeal" xml:space="preserve">
+    <value>Koliko dugo treba tetovaža da zaraste?</value>
+  </data>
+  <data name="HowMuchTimeDoesIttakeToHealText" xml:space="preserve">
+    <value>Treba joj dve nedelje da zaraste, ali je koži potrebno par meseci da se u potpunosti regenerise.</value>
+  </data>
+  <data name="HowToPointAppointment" xml:space="preserve">
+    <value>Kako da zakažem termin?</value>
+  </data>
+  <data name="HowToTakeCare" xml:space="preserve">
+    <value>Kako negujem svoju novu tetovažu/pirsing?</value>
+  </data>
+  <data name="HowToTakeCareText" xml:space="preserve">
+    <value>Svaki studio ima svoje preporuke za negu, dobićeš instrukcije nakon što zavšiš sa tetoviranjem i pirsingom.</value>
+  </data>
+  <data name="LeaveDeposit" xml:space="preserve">
+    <value>Da li treba da ostavim depozit ako odlučim da zakažem termin?</value>
+  </data>
+  <data name="LeaveDepositText" xml:space="preserve">
+    <value>U slučaju da je usluga koja vredi preko 100e obavezan je depozit od 50%. Depozit se ne vraća u slučaju da se ne pojaviš na svom terminu.</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Lokacija</value>
+  </data>
+  <data name="mon-fri" xml:space="preserve">
+    <value>pon - pet</value>
+  </data>
+  <data name="OurServices" xml:space="preserve">
+    <value>Naše usluge</value>
+  </data>
+  <data name="Partners" xml:space="preserve">
+    <value>Partneri</value>
+  </data>
+  <data name="sut" xml:space="preserve">
+    <value>sub</value>
+  </data>
+  <data name="WorkingHours" xml:space="preserve">
+    <value>Radno Vreme</value>
+  </data>
+</root>
